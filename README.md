@@ -322,6 +322,14 @@ PROYECTO PLACAS/
 cd "c:\Users\usuario\PROYECTO PLACAS"
 ```
 
+#### 1. **Descargar y agregar las carpetas Faltantes**
+- `data` - Dataset sintetico y datos de prueba
+- `models` - Modelo .h5 preentrenado
+- `output_visuals` - salidas de datos de pruebas
+```bash
+https://drive.google.com/drive/folders/1I3MJ1wtMx_JNavS3nyOr5-qcG5X42L-w?usp=sharing
+
+``
 #### 2. **Crear entorno virtual (recomendado)**
 ```powershell
 # Crear entorno virtual
