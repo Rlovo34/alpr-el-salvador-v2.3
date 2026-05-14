@@ -329,7 +329,7 @@ cd "c:\Users\usuario\PROYECTO PLACAS"
 ```bash
 https://drive.google.com/drive/folders/1I3MJ1wtMx_JNavS3nyOr5-qcG5X42L-w?usp=sharing
 
-``
+````
 #### 2. **Crear entorno virtual (recomendado)**
 ```powershell
 # Crear entorno virtual
