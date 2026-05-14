@@ -308,21 +308,21 @@ PROYECTO PLACAS/
 
 ## 🔧 Requisitos Previos e Instalación
 
-### **Requisitos del Sistema **
+### **Requisitos del Sistema**
 - Python 3.8 o superior
 - CUDA 11.0+ (opcional, acelera GPU)
 - 4GB RAM mínimo (8GB recomendado)
 - 2GB espacio disponible
 
-### **Pasos de Instalación **
+### **Pasos de Instalación**
 
-#### 1. **Clonar o descargar el proyecto **
+#### 1. **Clonar o descargar el proyecto**
 ```bash
 # Navegar a la carpeta del proyecto
 cd "c:\Users\usuario\PROYECTO PLACAS"
 ```
 
-#### 2. **Descargar y agregar las carpetas Faltantes ya que por su tamaño no fueron subidas al repositorio **
+#### 2. **Descargar MODELO_2.3.rar y agregar las carpetas Faltantes al proyecto ya que por su tamaño no fueron subidas al repositorio**
 - `data` - Dataset sintetico y datos de prueba
 - `models` - Modelo .h5 preentrenado
 - `output_visuals` - salidas de datos de pruebas
