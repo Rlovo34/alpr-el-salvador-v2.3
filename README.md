@@ -101,20 +101,6 @@ Cambios para reducir caracteres fantasma:
 - ✅ `visualize_sv.py` con panel de análisis integrado
 - ✅ `run_inference.py` alineado con nuevo formato v2.2
 
----
-
-## 🆕 Información de Versión
-
-| Componente | v2.0 | v2.1 | v2.2 | v2.3 |
-|-----------|------|------|------|------|
-| **Dataset** | 36,000 img | ✓ | ✓ | ✓ |
-| **Modelo** | ResNet50 | ✓ | ✓ | ✓ |
-| **Inferencia** | Consola | Visualización | Segmentación mejorada | Incluir débiles |
-| **Documentación** | Básica | Profesional | Parámetros técnicos | Caracteres débiles |
-| **Scripts** | Básicos | Avanzados | Estadísticas | Panel análisis |
-| **Validación** | Patrón simple | Flexible | Flexible | Flexible (6-8 chars) |
-
----
 
 ## 🆕 Novedades en v2.1
 
@@ -167,21 +153,10 @@ Se realizó refactorización completa de comentarios y Docstrings:
 - Comentarios enfocados en "por qué" vs narrar código evidente
 - Parámetros técnicos justificados matemáticamente
 
----
 
-## 🆕 Información de Versión
+## 🆕 Novedades en v2.0 
 
-| Componente | v2.0 | v2.1 |
-|-----------|------|------|
-| **Dataset** | 36,000 imágenes | ✓ Sin cambios |
-| **Modelo** | ResNet50 + BatchNorm | ✓ Sin cambios |
-| **Inferencia** | Consola solo | 🆕 + Visualización automática |
-| **Documentación** | Básica | 🆕 Profesional (Google Docstrings) |
-| **run_inference.py** | Sin visualización | 🆕 Genera PNG automáticamente |
-
----
-
-Basado en análisis de arquitectura, se han implementado **10 mejoras clave** para aumentar la precisión de identificación:
+Basado en análisis de arquitectura, se han implementado **10 mejoras clave** para aumentar la precisión de identificación con respecto a la version 1.0:
 
 ### **1. Augmentación de Datos Agresiva** ⭐⭐⭐⭐⭐
 - **Dataset aumentado:** 250 → **1000 muestras por clase** (36,000 imágenes totales)
@@ -256,6 +231,22 @@ Basado en análisis de arquitectura, se han implementado **10 mejoras clave** pa
 - Logs informativos durante la ejecución
 
 ---
+
+---
+
+## 🆕 Información de Versión (Resumen)
+
+| Componente | v2.0 | v2.1 | v2.2 | v2.3 |
+|-----------|------|------|------|------|
+| **Dataset** | 36,000 img | ✓ | ✓ | ✓ |
+| **Modelo** | ResNet50 | ✓ | ✓ | ✓ |
+| **Inferencia** | Consola | Visualización | Segmentación mejorada | Incluir débiles |
+| **Documentación** | Básica | Profesional | Parámetros técnicos | Caracteres débiles |
+| **Scripts** | Básicos | Avanzados | Estadísticas | Panel análisis |
+| **Validación** | Patrón simple | Flexible | Flexible | Flexible (6-8 chars) |
+
+---
+
 
 ## 📁 Estructura de Directorios
 
