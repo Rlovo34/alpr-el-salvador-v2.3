@@ -308,29 +308,29 @@ PROYECTO PLACAS/
 
 ## 🔧 Requisitos Previos e Instalación
 
-### **Requisitos del Sistema**
+### **Requisitos del Sistema **
 - Python 3.8 o superior
 - CUDA 11.0+ (opcional, acelera GPU)
 - 4GB RAM mínimo (8GB recomendado)
 - 2GB espacio disponible
 
-### **Pasos de Instalación**
+### **Pasos de Instalación **
 
-#### 1. **Clonar o descargar el proyecto**
+#### 1. **Clonar o descargar el proyecto **
 ```bash
 # Navegar a la carpeta del proyecto
 cd "c:\Users\usuario\PROYECTO PLACAS"
 ```
 
-#### 1. **Descargar y agregar las carpetas Faltantes**
+#### 2. **Descargar y agregar las carpetas Faltantes ya que por su tamaño no fueron subidas al repositorio **
 - `data` - Dataset sintetico y datos de prueba
 - `models` - Modelo .h5 preentrenado
 - `output_visuals` - salidas de datos de pruebas
 ```bash
 https://drive.google.com/drive/folders/1I3MJ1wtMx_JNavS3nyOr5-qcG5X42L-w?usp=sharing
 
-````
-#### 2. **Crear entorno virtual (recomendado)**
+```
+#### 3. **Crear entorno virtual (recomendado)**
 ```powershell
 # Crear entorno virtual
 python -m venv parqueo_ocr
@@ -345,14 +345,14 @@ parqueo_ocr\Scripts\activate.bat
 source parqueo_ocr/bin/activate
 ```
 
-#### 3. **Instalar dependencias**
+#### 4. **Instalar dependencias**
 ```bash
 # Instalar paquetes desde requirements.txt
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-#### 4. **Verificar instalación**
+#### 5. **Verificar instalación**
 ```python
 python -c "import tensorflow; import cv2; import numpy; print('✓ Dependencias OK')"
 ```
