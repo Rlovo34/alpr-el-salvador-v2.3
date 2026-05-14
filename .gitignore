@@ -1,0 +1,11 @@
+# Ignorar datos pesados e imágenes
+data/
+output_visuals/
+
+# Ignorar modelos pesados
+models/*.h5
+
+# Ignorar entornos virtuales y caché de Python
+venv/
+__pycache__/
+*.pyc
